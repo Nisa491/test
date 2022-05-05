@@ -1,0 +1,123 @@
+body {
+
+    background: #eeeeee;
+    font-family: "Microsoft YaHei";
+}
+
+.card {
+
+    background-color: #fff;
+    width: 450px;
+    height: 270px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.3);
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+}
+/*--------------------------------------------------------------------*/
+.top {
+
+    width: 410px;
+    margin-left: 20px;
+}
+
+.top p {
+
+    color: #1D7FAA;
+    font-size: 20px;
+    border-bottom: 2px solid #1D7FAA;
+
+}
+
+/*--------------------------------------------------------------------*/
+
+.mid {
+
+    width: 410px;
+    margin-left: 20px;
+    font-size: 14px;
+}
+
+.name, .contact {
+
+    display: inline-block;
+    margin-left: 20px;
+    vertical-align: top;
+    
+}
+
+.name {
+
+    margin-top: 35px;
+
+}
+
+.name p {
+
+    margin: 0;
+    font-weight: bold;
+
+}
+
+.chinese {
+
+    font-size: 18px;
+
+}
+
+.chinese span {
+
+    font-size: 12px;
+    margin-left: 3px;
+}
+
+.eng {
+
+    font-size: 10px;
+    
+}
+
+
+.contact {
+
+    margin-top: 5px;
+    margin-left: 50px;
+    font-size: 15px;
+    line-height: 19px;
+}
+
+.contact p {
+
+    margin-top: 0;
+}
+
+/*--------------------------------------------------------------------*/
+
+.bot {
+
+    background-color: #1D7FAA;
+    width: 100%;
+    height: 70px;
+
+
+    position: absolute;
+    bottom: 0;
+    border-radius: 0 0 10px 10px;
+    color: white;
+
+    padding: 10px;
+    box-sizing: border-box;
+
+}
+
+.bot p {
+
+    font-size: 14px;
+    margin: 0 0 0 20px;
+    padding-top: 5px;
+
+}
